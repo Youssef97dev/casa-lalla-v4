@@ -3,6 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div
+      id="about"
       className="md:mt-2 w-full h-full md:h-[140vh] flex flex-col justify-center items-center bg-cover bg-center"
       style={{
         backgroundImage: "url(/images/L-21.jpg)",

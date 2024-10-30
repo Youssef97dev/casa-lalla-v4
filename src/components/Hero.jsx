@@ -71,13 +71,13 @@ const Hero = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="py-2 hover:text-primary">
-                <Link href="#">Menu</Link>
+                <Link href="#about">About us</Link>
               </li>
               <li className="py-2 hover:text-primary">
-                <Link href="/gallery">Gallery</Link>
+                <Link href="#gallery">Gallery</Link>
               </li>
               <li className="py-2 hover:text-primary">
-                <Link href="#">Reservation</Link>
+                <Link href="#reservation">Reservation</Link>
               </li>
               <li className="py-2 hover:text-primary">
                 <Link href="#">Events</Link>

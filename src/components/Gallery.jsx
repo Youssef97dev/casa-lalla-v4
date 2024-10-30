@@ -11,7 +11,10 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center gap-2 md:gap-0 bg-primary_3">
+    <div
+      id="gallery"
+      className="w-full flex flex-col justify-center items-center gap-2 md:gap-0 bg-primary_3"
+    >
       <span className="font-semibold text-lg md:text-3xl tracking-widest pt-14 pb-8">
         Gallery
       </span>
