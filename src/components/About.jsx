@@ -3,14 +3,14 @@ import React from "react";
 const About = () => {
   return (
     <div
-      className="mt-2 w-full h-full md:h-[140vh] flex flex-col justify-center items-center bg-cover bg-center"
+      className="md:mt-2 w-full h-full md:h-[140vh] flex flex-col justify-center items-center bg-cover bg-center"
       style={{
         backgroundImage: "url(/images/L-21.jpg)",
         backgroundAttachment: "fixed",
       }}
     >
       <div className="w-full h-full md:h-1/2 flex justify-center items-center flex-col md:flex-row">
-        <div className="w-full md:w-1/2 h-full bg-background flex flex-col justify-center items-center text-center gap-5 px-3 lg:px-14">
+        <div className="w-full md:w-1/2 h-full bg-background flex flex-col justify-center items-center text-center gap-5 px-3 lg:px-14 py-5">
           <span className="font-semibold text-lg md:text-xl tracking-widest">
             ABOUT US
           </span>
@@ -32,7 +32,7 @@ const About = () => {
       </div>
       <div className="w-full h-full md:h-1/2 flex justify-center items-center flex-col-reverse md:flex-row">
         <div className="w-full md:w-1/2 h-full bg-transparent"></div>
-        <div className="w-full md:w-1/2 h-full bg-background flex flex-col justify-center items-center text-center gap-5 px-3 lg:px-14">
+        <div className="w-full md:w-1/2 h-full bg-background flex flex-col justify-center items-center text-center gap-5 px-3 lg:px-14 py-5">
           <p className="text-sm xl:text-lg">
             {`The deep rooted connection to nature in every aspect of the experience, make staying at this luxury restaurant heaven.`}
             <br />
