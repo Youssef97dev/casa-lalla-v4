@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary_1: "var(--casa-primary)",
+        primary_2: "var(--casa-secondary)",
+        primary_3: "var(--casa-thirdly)",
       },
     },
   },
