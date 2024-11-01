@@ -1,42 +1,62 @@
-import Image from "next/image";
+"use client";
+
+import ImageGallery from "react-image-gallery";
 
 const images = [
-  "/images/casa13.jpg",
-  "/images/casa2.jpg",
-  "/images/casa8.jpg",
-  "/images/casa9.jpg",
-  "/images/casa10.jpg",
-  "/images/casa15.jpg",
+  {
+    original: "/images/casa1.jpg",
+    thumbnail: "/images/casa1.jpg",
+  },
+  {
+    original: "/images/casa2.jpg",
+    thumbnail: "/images/casa2.jpg",
+  },
+  {
+    original: "/images/casa3.jpg",
+    thumbnail: "/images/casa3.jpg",
+  },
+  {
+    original: "/images/casa4.jpg",
+    thumbnail: "/images/casa4.jpg",
+  },
+  {
+    original: "/images/casa5.jpg",
+    thumbnail: "/images/casa5.jpg",
+  },
+  {
+    original: "/images/casa6.jpg",
+    thumbnail: "/images/casa6.jpg",
+  },
+  {
+    original: "/images/casa7.jpg",
+    thumbnail: "/images/casa7.jpg",
+  },
+  {
+    original: "/images/casa8.jpg",
+    thumbnail: "/images/casa8.jpg",
+  },
+  {
+    original: "/images/casa9.jpg",
+    thumbnail: "/images/casa9.jpg",
+  },
+  {
+    original: "/images/casa10.jpg",
+    thumbnail: "/images/casa10.jpg",
+  },
+  {
+    original: "/images/casa11.jpg",
+    thumbnail: "/images/casa11.jpg",
+  },
+  {
+    original: "/images/gall2.jpg",
+    thumbnail: "/images/gall2.jpg",
+  },
 ];
 
 const Gallery = () => {
   return (
-    <div
-      id="gallery"
-      className="w-full flex flex-col justify-center items-center gap-2 md:gap-0 bg-primary_3"
-    >
-      <span className="font-semibold text-lg md:text-3xl tracking-widest pt-14 pb-8">
-        Gallery
-      </span>
-      <div className="container py-5 w-full h-full">
-        <div className="masonry">
-          {images.map((src, index) => (
-            <div
-              key={index}
-              className="masonry-item relative shadow-lg hover:scale-105 transition-all ease-linear overflow-hidden"
-            >
-              <Image
-                src={src}
-                alt={`Image ${index}`}
-                layout="responsive"
-                width={300}
-                height={300}
-                className="rounded-sm"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
+    <div id="gallery" className=" my-2 bg-[#000000] w-full">
+      <ImageGallery items={images} />
     </div>
   );
 };

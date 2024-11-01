@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Reservation = () => {
   return (
-    <div id="reservation" className="w-full h-[60vh]">
+    <div id="reservation" className="w-full h-[60vh] mt-2">
       <div className="relative h-full w-full flex justify-center items-center">
         <div
           className="absolute z-10 top-0 left-0 w-full h-full bg-cover bg-left"

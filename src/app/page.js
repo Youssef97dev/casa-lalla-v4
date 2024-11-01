@@ -10,8 +10,8 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center lg:px-10">
       <Hero />
       <About />
-      <Gallery />
       <Reservation />
+      <Gallery />
       <Mapbox />
       <Footer />
     </div>
