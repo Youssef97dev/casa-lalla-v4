@@ -30,14 +30,14 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-10"></div>
 
         {/* Hero Content */}
-        <div className="z-40 absolute h-full w-full flex flex-col lg:flex-row justify-center items-center lg:items-start">
+        <div className="z-40 absolute h-full w-full flex flex-col lg:flex-row justify-start lg:justify-center items-center lg:items-start mt-24 lg:mt-0">
           <Link href="/">
             <Image
               src="/icons/logo-2.png"
               alt="casa lalla tekerkoust"
               width={200}
               height={200}
-              className="cursor-pointer w-48 h-48 lg:w-full lg:h-full"
+              className="cursor-pointer w-40 h-40 lg:w-full lg:h-full "
             />
           </Link>
         </div>
